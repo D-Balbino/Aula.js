@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("cursinho de programação do gordinho")
+
+    </script>
+
+    <form name="contact">
+        <h1>contact</h1>
+        <label for="Nome">Nome</label>
+        <input type="text" id="nomeid"
+         placeholder="Nome" required="required" name="Nome"/>
+
+        <label for="foone">telefone</label>
+        <input type="tel" id="foneid"
+         placeholder="(xx)xxxx-xxxx" required="required" name="fone"/>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="emailid"
+         placeholder="Insira seu e-mail" required="required" name="email"/>
+
+
+        <input name="CEP" type="text" id="CEP" value="" size="10" maxlength="9"
+        onblur="pesquisacep(this.valeu);" required="required" />
+        <label>CEP</label>
+
+        <input name="Rua" type="text" id="Rua" size="60" required="required"/>
+        <label>Logradouro</label>
+
+        <input name="Bairro" type="text" id="Bairro" size="40" required="required"/>
+        <label>Bairro</label>
+
+        <input name="Cidade" type="text" id="Cidade" size="40" required="required"/>
+        <label>Cidade</label>
+
+        <input name="uF" type="text" id="uF" size="2" required="required"/>
+        <label>UF</label>
+
+        <textarea placeholder="Deixe sua opinião"></textarea>
+
+        <input type="submit" class="enviar" onclick="Enviar()" value="Enviar">
+    </form>
+</body>
+</html>
